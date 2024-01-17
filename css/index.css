@@ -1,0 +1,98 @@
+a {
+    text-decoration: none;
+}
+
+
+
+.background {
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    filter: brightness(80%);
+}
+
+.bg-image {
+    height: 80vh;
+    filter: blur(15px);
+    opacity: 30%;
+}
+
+.main-content {
+    height: 90vh;
+}
+
+.form-floating>label {
+    font-size: 13px;
+}
+.form-floating:focus>label {
+    color: #02BCE6;
+}
+
+.login-input {
+    height: 30px;
+    width: 325px;
+    margin-bottom: 45px;
+}
+.login-input label{
+    padding-top: 18px;
+}
+
+
+
+.login-btn {
+    width: 325px;
+    background-color: #02BCE6;
+    color: white;
+}
+
+.login-btn:hover {
+    background-color: #02a3c7;
+    color: #ffffff;
+}
+
+.logo-img {
+ padding: 15px;
+ height: 150px;
+}
+
+.logo
+{
+    position: absolute;
+}
+
+.theme-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 2;
+}
+
+.x {
+    color: #02BCE6;
+    border-color: #02BCE6;
+    border-radius: 7px;
+    height: 40px;
+    width: 40px;
+}
+.x:hover {
+    background-color: #02BCE6;
+    color: #ffffff;
+}
+
+.back-btn {
+    color: #02BCE6;
+
+}
+
+
+
+
+#forgot-pswd{
+    padding: 20px;
+    color: #02BCE6;
+    font-weight: 400;
+}
+#forgot-pswd:hover{
+    color: #02a3c7;
+}
