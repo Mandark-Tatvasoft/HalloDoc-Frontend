@@ -80,9 +80,9 @@ a{
 
 .theme-btn {
     position: absolute;
+    z-index: 2;
     top: 15px;
     right: 15px;
-    z-index: 2;
 }
 
 .x {
@@ -100,6 +100,9 @@ a{
 .back-btn {
     color: #02BCE6;
 
+}
+.navbar{
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -136,11 +139,83 @@ a{
     background-color: #02BCE6;
     color: white;
     margin: 9px;
+    padding: 12px;
 }
 #reg-patnt-btn{
     width: 325px;
     height: 50px;
     background-color: #0D1556;
     color: white;
+    margin: 9px;
+    padding: 12px;
+}
+#nav-logo{
+    height: 50px;
+    margin: 0 25px;
+}
+#x{
+    color: #02BCE6;
+    border-color: #02BCE6;
+    border-radius: 7px;
+    height: 40px;
+    width: 40px;
+    margin: 0 15px;
+}
+#x:hover {
+    background-color: #02BCE6;
+    color: #ffffff;
+}
+#main-container{
+    margin-top: 50px;
+}
+#ima-head{
+    padding: 25px 5px;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+#btn-mgn{
+    position: absolute;
+    border-color: #02BCE6;
+    color: #02BCE6;
+    margin: 15px;
+}
+#patnt{
+    width: 325px;
+    height: 50px;
+    background-color: #E9EAEF;
+    color: #556589;
+    border-width: 1px;
+    font-weight: 600;
+    border-color: #556589;
+    margin: 9px;
+}
+#family{
+    width: 325px;
+    height: 50px;
+    background-color: #E4F2F9;
+    color: #02BCE6;
+    border-width: 1px;
+    font-weight: 600;
+    border-color: #02BCE6;
+    margin: 9px;
+}
+#cncrg{
+    width: 325px;
+    height: 50px;
+    background-color: #E6F1E5;
+    color: #487345;
+    border-width: 1px;
+    font-weight: 600;
+    border-color: #487345;
+    margin: 9px;
+}
+#prtnr{
+    width: 325px;
+    height: 50px;
+    background-color: #F7E5F0;
+    color: #783760;
+    border-width: 1px;
+    font-weight: 600;
+    border-color: #783760;
     margin: 9px;
 }
