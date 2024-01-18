@@ -130,3 +130,17 @@ a{
 #back-btn:hover{
     color: #003d4a;
 }
+#sbmt-req-btn{
+    width: 325px;
+    height: 50px;
+    background-color: #02BCE6;
+    color: white;
+    margin: 9px;
+}
+#reg-patnt-btn{
+    width: 325px;
+    height: 50px;
+    background-color: #0D1556;
+    color: white;
+    margin: 9px;
+}
