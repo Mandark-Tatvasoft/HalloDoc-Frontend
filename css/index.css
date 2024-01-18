@@ -29,30 +29,32 @@ a{
     height: 90vh;
 }
 
+.form-floating{
+    height: 70px;
+}
 .form-floating>label {
     font-size: 13px;
     color: #707070;
 }
-.form-floating>.form-control-plaintext~label, .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label{
+.form-floating>.form-control-plaintext~label, .form-floating>.form-control:focus~label, .form-floating>.form-select~label{
     color: #02BCE6;
 }
 
 .form-control{
     border-width: 1.5px;
     border-color: #c2c2c2;
+    margin-bottom: 15px;
 }
 .form-control:focus{
     box-shadow: none;
     border-color: #02BCE6;
 }
 
-.login-input {
-    height: 30px;
-    width: 325px;
-    margin-bottom: 45px;
-}
 .login-input label{
     padding-top: 18px;
+}
+.login-input{
+    width: 325px;
 }
 
 
@@ -104,6 +106,29 @@ a{
 .navbar{
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
 }
+
+.info-head{
+    font-weight: 600;
+    margin: 20px 10px;
+}
+
+.info-head .form-control{
+    height: 200px;
+}
+.patient-info{
+    margin: 7px 0px;
+}
+.upload-files{
+    height: 58px;
+    background-color: #02BCE6;
+    color: #ffffff;
+    padding: 17px;
+    font-size: 14px;
+}
+.mgn{
+    margin-bottom: 45px;
+}
+
 
 
 
@@ -188,6 +213,7 @@ a{
     font-weight: 600;
     border-color: #556589;
     margin: 9px;
+    padding: 12px;
 }
 #family{
     width: 325px;
@@ -198,6 +224,7 @@ a{
     font-weight: 600;
     border-color: #02BCE6;
     margin: 9px;
+    padding: 12px;
 }
 #cncrg{
     width: 325px;
@@ -208,6 +235,7 @@ a{
     font-weight: 600;
     border-color: #487345;
     margin: 9px;
+    padding: 12px;
 }
 #prtnr{
     width: 325px;
@@ -218,4 +246,34 @@ a{
     font-weight: 600;
     border-color: #783760;
     margin: 9px;
+    padding: 12px;
+}
+#patient-info-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#upload-icon{
+    margin: 1px 8px 0 13px;
+    font-size: 22px;
+}
+#input-group-file{
+    padding-left: 5px;
+}
+#input-group-file:hover {
+    background-color: #02a3c7;
+    color: #ffffff;
+}
+#sbmt-btn{
+    background-color: #02BCE6;
+    color: #ffffff;
+    margin:  15px 8px;
+    padding: 12px 25px;
+    height: 50px;
+}
+#cncl-btn{
+    color: #02BCE6;
+    border-color: #02BCE6;
+    margin:  15px 0 15px 8px;
+    padding: 12px 25px;
+    height: 50px;
 }
