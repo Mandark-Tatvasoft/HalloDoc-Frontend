@@ -15,14 +15,23 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+    
+    <!-- Navbar -->
     <div class="navbar">
-        <img src="images/logo.svg" alt="Logo" id="nav-logo">
-        <button class="btn" id="x"><i class="bi bi-moon"></i></button>
+        <img src="images/logo.png" alt="Logo" id="nav-logo">
+        <button class="btn theme-toggle" id="theme-switch" onclick="theme()"><i class="bi bi-moon"></i></button>
     </div>
+    
+    
+    <!-- Back button -->
     <a href="request-type.html" class="btn btn-outlined" id="btn-mgn"><i class="bi bi-chevron-left"></i>back</a>
+    
+    
+    <!-- Main content form -->
     <div class="container" id="patient-info-container">
         <form class="d-flex flex-column justify-content-center">
             
+            <!-- Business info -->
             <h5 class="info-head">Business Information</h5>
             <div class="row">
                 <div class="col-md-6">
@@ -63,6 +72,7 @@
                 </div>
             </div>
 
+            <!-- Business patient info -->
             <h5 class="info-head">Patient Information</h5>
             <div class="row">
                 <div class="col-12">
@@ -91,6 +101,7 @@
                 </div>
             </div>
             
+            <!-- Business patient contact info -->
             <h5 class="info-head">Patient Contact Information</h5>
             <div class="row">
                 <div class="col-md-6">
@@ -107,6 +118,7 @@
                 </div>
             </div>
             
+            <!-- Business patient location -->
             <h5 class="info-head">Patient Location</h5>
             <div class="row">
                 <div class="col-md-6">
@@ -147,7 +159,37 @@
         </form>
     </div>
 
+
+
+
+
+    <!-- Popup -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered d-flex justify-content-center align-items-center ">
+            <div class="modal-content  ">
+                <div class="modal-header">
+                    <div class="container d-flex justify-content-center align-items-center">
+                        <img src="images/warning-icon.svg" alt="" id="warning-icon">
+                    </div> 
+                </div>
+                <div class="modal-body">
+                    When submitting a request, you must provide the correct contact information for the patient or the responsible party. Failure to provide the correct email and phone number will delay service or be declined.
+                </div>
+                <div class="modal-footer d-flex justify-content-center align-items-center">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <script src="js/dark-theme.js"></script>
+    <script>
+        var myModal = new bootstrap.Modal(document.getElementById('myModal'), {})
+        myModal.show()
+    </script>
 </body>
 </html>

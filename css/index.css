@@ -9,10 +9,9 @@ a{
 }
 
 
-
 .background {
     position: fixed;
-    z-index: -1;
+    z-index: -2;
     height: 100%;
     width: 100%;
     filter: brightness(90%);
@@ -31,6 +30,7 @@ a{
 
 .form-floating{
     height: 70px;
+    margin-bottom: 15px;
 }
 .form-floating>label {
     font-size: 13px;
@@ -42,7 +42,6 @@ a{
 
 .form-control{
     border-width: 1.5px;
-    border-color: #c2c2c2;
     margin-bottom: 15px;
 }
 .form-control:focus{
@@ -95,8 +94,8 @@ a{
     width: 40px;
 }
 .x:hover {
-    background-color: #02BCE6;
     color: #ffffff;
+    background-color: #02BCE6;
 }
 
 .back-btn {
@@ -105,6 +104,18 @@ a{
 }
 .navbar{
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+}
+.theme-toggle{
+    color: #02BCE6;
+    border-color: #02BCE6;
+    border-radius: 7px;
+    height: 40px;
+    width: 40px;
+    margin: 0 15px;
+}
+.theme-toggle:hover{
+    background-color: #02BCE6;
+    color: #ffffff;
 }
 
 .info-head{
@@ -127,6 +138,16 @@ a{
 }
 .mgn{
     margin-bottom: 45px;
+}
+
+#warning-icon{
+    height: 30px;
+}
+.modal-body{
+    padding: 30px 40px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
 }
 
 
@@ -178,18 +199,7 @@ a{
     height: 50px;
     margin: 0 25px;
 }
-#x{
-    color: #02BCE6;
-    border-color: #02BCE6;
-    border-radius: 7px;
-    height: 40px;
-    width: 40px;
-    margin: 0 15px;
-}
-#x:hover {
-    background-color: #02BCE6;
-    color: #ffffff;
-}
+
 #main-container{
     margin-top: 50px;
 }
@@ -207,18 +217,18 @@ a{
 #patnt{
     width: 325px;
     height: 50px;
-    background-color: #E9EAEF;
-    color: #556589;
+    background-color: rgba(85, 101, 137, 0.3);
+    color: #8c62d1;
     border-width: 1px;
     font-weight: 600;
-    border-color: #556589;
+    border-color: #8c62d1;
     margin: 9px;
     padding: 12px;
 }
 #family{
     width: 325px;
     height: 50px;
-    background-color: #E4F2F9;
+    background-color: rgba(2, 188, 230, 0.25);
     color: #02BCE6;
     border-width: 1px;
     font-weight: 600;
@@ -229,22 +239,22 @@ a{
 #cncrg{
     width: 325px;
     height: 50px;
-    background-color: #E6F1E5;
-    color: #487345;
+    background-color: rgba(72, 115, 69, 0.3);
+    color: #3d9b36;
     border-width: 1px;
     font-weight: 600;
-    border-color: #487345;
+    border-color: #3d9b36;
     margin: 9px;
     padding: 12px;
 }
 #prtnr{
     width: 325px;
     height: 50px;
-    background-color: #F7E5F0;
-    color: #783760;
+    background-color: #7837603d;
+    color: #b65a94;
     border-width: 1px;
     font-weight: 600;
-    border-color: #783760;
+    border-color: #b65a94;
     margin: 9px;
     padding: 12px;
 }
